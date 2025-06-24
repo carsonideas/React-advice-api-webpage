@@ -1,0 +1,71 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  background: linear-gradient(to right, #dd5e89,#f7bb97);
+  border: 1px;
+  border-radius: 80rem;
+  margin-left: 4rem;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  /* background-color: #28a745; */
+  /* background-color: orange; */
+  background: linear-gradient(to right, #c33764, #1d2671);
+  /* background: linear-gradient(to right, #dd5e89,#f7bb97); */
+  transition: background 0.5s ease;
+  
+
+  transform: scale(1.05);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  
+  /* background-color: #28a745; */
+  /* background-color: orange; */
+  
+  background: linear-gradient(to right, #dd5e89,#f7bb97);
+  transition: background 0.5s ease;
+  transform: scale(1.25);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  
+}
+
+button:disabled 
+{
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.result {
+  font-size: 30px;
+  margin-top: 25px;
+  font-style: italic;
+  color: #333;
+  /* background-color: orange; */
+  /* background-color: transparent; */
+  border-radius: 20rem;
+  padding: 0;
+}
+
+.error {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: white;
+  
+  border-radius: 20rem;
+}
