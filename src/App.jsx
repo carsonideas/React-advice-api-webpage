@@ -44,7 +44,8 @@ function App() {
 
       {loading && <SyncLoader color="green" size={15} />}
 
-      {id && <p className="myid">Advice {id}</p>}
+      {id && <p className="myid">Advice <span className="idnumber">{id}</span></p>
+}
 
       {advice && <p className="result">"{advice}"</p>}
 

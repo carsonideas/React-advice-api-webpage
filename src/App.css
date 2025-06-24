@@ -47,10 +47,18 @@
   /* border-left: 0.7rem solid orange; */
   border-radius: 2rem;
 }
-id
+
+/* #id
 {
   color: red;
+} */
+
+.idnumber {
+  color: orange;
+  font-weight: bold;
 }
+
+
 form {
   margin-bottom: 20px;
 }
