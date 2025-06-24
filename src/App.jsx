@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="app">
       {/* <div className="myadvisepicture"><img src="./image.png" alt="" /></div> */}
-      {picture && <p className="myadvisepicture"><img src="/good-advice-concept-little-d-man-rolling-down-reader-45526119.jpg.webp" alt="" /></p>}
+      {picture && <p className="myadvisepicture"><img src="./good-advice-concept-little-d-man-rolling-down-reader-45526119.jpg.webp" alt="" /></p>}
       <form onSubmit={handleGetAdvice}>
         <button type="submit" disabled={loading}>
           Get Random Advice
