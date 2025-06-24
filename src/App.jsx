@@ -17,7 +17,7 @@ function App() {
       const response = await fetch("https://api.adviceslip.com/advice");
       if (!response.ok) {
         setError("HOUSTON!! I have failedd to fetch advice.. nooo..");
-        return
+        return;
       }
       const data = await response.json();
       setAdvice(data.slip.advice);
